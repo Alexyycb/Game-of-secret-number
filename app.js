@@ -1,5 +1,5 @@
 let listOfSecretNumbers = [];
-let limitNumber = 100;
+let limitNumber = 200;
 let secretNumber = generateRandomNumber();
 function generateRandomNumber () {
     let chosenNumber = parseInt(Math.random() * limitNumber + 1);
